@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hyugnmin.android.fragmentcontrol.ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="Go Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnGoDetail" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Fragment"
+        android:layout_above="@+id/btnGoDetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal" />
+
+</RelativeLayout>
